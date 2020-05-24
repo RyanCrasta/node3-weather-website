@@ -42,7 +42,7 @@ app.get('/about', (req, res) =>{
 
 app.get('/help', (req, res) =>{
     res.render('help', {
-        msg: 'Not him old music think his found enjoy merry. Listening acuteness dependent at or an. Apartments thoroughly unsatiable terminated sex how themselves. She are ten hours wrong walls stand early. Domestic perceive on an ladyship extended received do. Why jennings our whatever his learning gay perceive. Is against no he without subject. Bed connection unreserved preference partiality not unaffected. Years merit trees so think in hoped we as. ',
+        msg: 'Thank you for selecting the most reliable weather forecaster. Type in any place name in the location text box given and click on search, and there you go, weather forecast will be displayed on your screen. Simple and Fast. No ADs No Disturbance ',
         title: 'Help',
         name:'Ryan Crasta'
     })
