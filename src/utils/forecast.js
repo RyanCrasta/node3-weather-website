@@ -14,7 +14,10 @@ const forecast = (latitude, longitude, callback) =>{
         }
         else
         {
-            callback(undefined,response.body.daily[0].weather[0].description + `. Temperature outside is ${response.body.current.temp} degrees.`);
+            callback(undefined,`${response.body.daily[0].weather[0].description}.
+            Temperature outside is ${response.body.current.temp} degrees.
+            Maximum temperature will be ${response.body.daily[0].temp.max} degrees.
+            Minimum temperature will be ${response.body.daily[0].temp.min} degrees.`);
         }
    
     })
